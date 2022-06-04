@@ -43,3 +43,44 @@ int main(){
     C4x = - C1x
     C4y = 0.0;
     C4z = - C1z
+    
+    H1x = 
+    H1y = 
+    H1z = 
+
+    H2x =
+    H2y = 
+    H2z = 
+
+    H3x = 
+    H3y = 
+    H3z =
+
+    H4x = 
+    H4y = 
+    H4z = 
+
+    H5x = 
+    H5y = 
+    H5z = 
+
+    H6x = 
+    H6y = 
+    H6z = 
+
+    H7x = 
+    H7y = 
+    H7z = 
+
+    H8x = 
+    H8y = 
+    H8z = 
+
+    H9x = 
+    H9y = 
+    H9z =  
+
+    H10x =  
+    H10y = 
+    H10z =  
+
