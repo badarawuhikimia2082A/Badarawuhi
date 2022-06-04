@@ -39,11 +39,11 @@ int main(){
 
     C3x = - C2x;
     C3y = 0.0;
-    C3z = - C2z
+    C3z = - C2z;
 
-    C4x = - C1x
+    C4x = - C1x;
     C4y = 0.0;
-    C4z = - C1z
+    C4z = - C1z;
     
     H1x = 
     H1y = 
