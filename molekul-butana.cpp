@@ -1,3 +1,4 @@
+%%writefile molekul-butana.cpp
 
 #include "iostream"
 #include "cmath"
