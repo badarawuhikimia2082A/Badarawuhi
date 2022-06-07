@@ -167,3 +167,7 @@ int main(){
     return 0;
 }
 
+    %%shell
+
+    g++ molekul-butana.cpp -o butana
+    ./butana
