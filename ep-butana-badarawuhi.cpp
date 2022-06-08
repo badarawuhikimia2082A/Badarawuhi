@@ -251,5 +251,73 @@ int main(){
     file << N << "\n" << endl;
 
     int Nw = N/14;
+    
+    // iterasi dalam output array
+    for(int m = 0; m < Nw; m++){
+        file << setw(14) << "C" << setw(14) << " " \
+        << fixed << setprecision(14) << C1x << setw(14) << " "\
+        << fixed << setprecision(14) << C1y << setw(14) << " "\
+        << fixed << setprecision(14) << C1z << "\n";
 
+        file << setw(14) << "C" << setw(14) << " " \
+        << fixed << setprecision(14) << C2x << setw(14) << " "\
+        << fixed << setprecision(14) << C2y << setw(14) << " "\
+        << fixed << setprecision(14) << C2z << "\n";
+
+        file << setw(14) << "C" << setw(14) << " " \
+        << fixed << setprecision(14) << C3x << setw(14) << " "\
+        << fixed << setprecision(14) << C3y << setw(14) << " "\
+        << fixed << setprecision(14) << C3z << "\n";
+
+        file << setw(14) << "C" << setw(14) << " " \
+        << fixed << setprecision(14) << C4x << setw(14) << " "\
+        << fixed << setprecision(14) << C4y << setw(14) << " "\
+        << fixed << setprecision(14) << C4z << "\n";
+
+        file << setw(14) << "H" << setw(14) << " " \
+        << fixed << setprecision(14) << H1x << setw(14) << " "\
+        << fixed << setprecision(14) << H1y << setw(14) << " "\
+        << fixed << setprecision(14) << H1z << "\n";
+
+        file << setw(14) << "H" << setw(5) << " " \
+        << fixed << setprecision(14) << H2x << setw(14) << " "\
+        << fixed << setprecision(14) << H2y << setw(14) << " "\
+        << fixed << setprecision(14) << H2z << "\n";
+
+        file << setw(14) << "H" << setw(5) << " " \
+        << fixed << setprecision(14) << H3x << setw(14) << " "\
+        << fixed << setprecision(14) << H3y << setw(14) << " "\
+        << fixed << setprecision(14) << H3z << "\n";
+
+       file << setw(14) << "H" << setw(14) << " " \
+       << fixed << setprecision(14) << H6x << setw(14) << " "\
+       << fixed << setprecision(14) << H6y << setw(14) << " "\
+       << fixed << setprecision(14) << H6z << "\n";
+
+       file << setw(14) << "H" << setw(14) << " " \
+       << fixed << setprecision(14) << H7x << setw(14) << " "\
+       << fixed << setprecision(14) << H7y << setw(14) << " "\
+       << fixed << setprecision(14) << H7z << "\n";
+
+       file << setw(14) << "H" << setw(14) << " " \
+       << fixed << setprecision(14) << H8x << setw(14) << " "\
+       << fixed << setprecision(14) << H8y << setw(14) << " "\
+       << fixed << setprecision(14) << H8z << "\n";
+
+       file << setw(14) << "H" << setw(14) << " " \
+       << fixed << setprecision(14) << H9x << setw(14) << " "\
+       << fixed << setprecision(14) << H9y << setw(14) << " "\
+       << fixed << setprecision(14) << H9z << "\n";
+
+       file << setw(14) << "H" << setw(14) << " " \
+       << fixed << setprecision(14) << H10x << setw(14) << " "\
+       << fixed << setprecision(14) << H10y << setw(14) << " "\
+       << fixed << setprecision(14) << H10z << "\n";
+
+      }   
+
+    file.close();
+
+    return 0;
+}
    
