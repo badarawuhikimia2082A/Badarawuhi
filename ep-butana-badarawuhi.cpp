@@ -320,4 +320,9 @@ int main(){
 
     return 0;
 }
+
+%%shell
+
+g++ ep-butana-badarawuhi.cpp -o ep
+./ep
    
