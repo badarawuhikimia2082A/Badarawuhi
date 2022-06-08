@@ -242,7 +242,7 @@ int main(){
         }
     }
 
-    cout << "Energi potensial dari molekul metana-badarawuhi: " \
+    cout << "Energi potensial dari molekul butana-badarawuhi: " \
          << Ep/(float)N << "kJ/mol";
 
     // hasil iterasi dimasukkan ke dalam file xyz
