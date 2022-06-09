@@ -1,0 +1,169 @@
+
+#include "iostream"
+#include "cmath"
+#include "iomanip"
+#include "fstream"
+
+using namespace std;
+
+int main(){
+    // deklarasi variabel
+    float pi = 3.14;
+
+    // deklarasi molekul butana
+    float C1x, C1y, C1z;
+    float C2x, C2y, C2z;
+    float C3x, C3y, C3z;
+    float C4x, C4y, C4z;
+    float H1x, H1y, H1z;
+    float H2x, H2y, H2z;
+    float H3x, H3y, H3z;
+    float H4x, H4y, H4z;
+    float H5x, H5y, H5z;
+    float H6x, H6y, H6z;
+    float H7x, H7y, H7z;
+    float H8x, H8y, H8z;
+    float H9x, H9y, H9z;
+    float H10x, H10y, H10z;
+
+    // masukan nilai untuk setiap variabel C4H10
+
+    C1x = - sin (54.7355*pi/180) * 1.540;
+    C1y = 0.0;
+    C1z = - cos (54.7355*pi/180) * 1.540;
+    
+    C2x = 0.0;
+    C2y = 0.0;
+    C2z = 0.0;
+
+    C3x = - C1x;
+    C3y = 0.0;
+    C3z = C1z;
+
+    C4x = 0.0;
+    C4y = - sin (35.265*pi/180) * 1.540;
+    C4z = cos (35.265*pi/180) * 1.540;
+
+    H1x = 0.0;
+    H1y = sin (35.25*pi/180) * 8.596;
+    H1z = cos (35.25*pi/180) * 8.596;
+
+    H2x = 0.0;
+    H2y = - H1y;
+    H2z = H1z;
+
+    H3x = - sin (109.471*pi/180) * 12.340;
+    H3y = 0.0;
+    H3z = - cos (109.471*pi/180) * 12.340;
+
+    H4x = 0.0;
+    H4y = cos (35.2645*pi/180) * 2.341;
+    H4z = - sin (35.2645*pi/180) * 2.341;
+
+    H5x = 0.0;
+    H5y = -H4y;
+    H5z = H4z;
+
+    H6x = 0.0;
+    H6y = H4y;
+    H6z = -H4z;
+
+    H7x = 0.0;
+    H7y = -H4y;
+    H7z = -H4z;
+
+    H8x = 0.0;
+    H8y =  H1y;
+    H8z = - H1z;
+
+    H9x = 0.0;
+    H9y = H2y;
+    H9z = - H2z;
+
+    H10x = 0.0; 
+    H10y = - H3y;
+    H10z = - H3z;
+
+    // memasukkan nilai tersebut ke dalam File 
+    ofstream file;
+    file.open("metil-propana.xyz");
+    file << "14\n" << endl;
+
+    file << setw(14) << "C" << setw(14) << " " \
+    << fixed << setprecision(14) << C1x << setw(14) << " "\
+    << fixed << setprecision(14) << C1y << setw(14) << " "\
+    << fixed << setprecision(14) << C1z << "\n";
+
+    file << setw(14) << "C" << setw(14) << " " \
+    << fixed << setprecision(14) << C2x << setw(14) << " "\
+    << fixed << setprecision(14) << C2y << setw(14) << " "\
+    << fixed << setprecision(14) << C2z << "\n";
+
+    file << setw(14) << "C" << setw(14) << " " \
+    << fixed << setprecision(14) << C3x << setw(14) << " "\
+    << fixed << setprecision(14) << C3y << setw(14) << " "\
+    << fixed << setprecision(14) << C3z << "\n";
+
+    file << setw(14) << "C" << setw(14) << " " \
+    << fixed << setprecision(14) << C4x << setw(14) << " "\
+    << fixed << setprecision(14) << C4y << setw(14) << " "\
+    << fixed << setprecision(14) << C4z << "\n";
+
+    file << setw(14) << "H" << setw(14) << " " \
+    << fixed << setprecision(14) << H1x << setw(14) << " "\
+    << fixed << setprecision(14) << H1y << setw(14) << " "\
+    << fixed << setprecision(14) << H1z << "\n";
+
+    file << setw(14) << "H" << setw(14) << " " \
+    << fixed << setprecision(14) << H2x << setw(14) << " "\
+    << fixed << setprecision(14) << H2y << setw(14) << " "\
+    << fixed << setprecision(14) << H2z << "\n";
+
+    file << setw(14) << "H" << setw(14) << " " \
+    << fixed << setprecision(14) << H3x << setw(14) << " "\
+    << fixed << setprecision(14) << H3y << setw(14) << " "\
+    << fixed << setprecision(14) << H3z << "\n";
+
+    file << setw(14) << "H" << setw(14) << " " \
+    << fixed << setprecision(14) << H4x << setw(14) << " "\
+    << fixed << setprecision(14) << H4y << setw(14) << " "\
+    << fixed << setprecision(14) << H4z << "\n";
+
+    file << setw(14) << "H" << setw(14) << " " \
+    << fixed << setprecision(14) << H5x << setw(14) << " "\
+    << fixed << setprecision(14) << H5y << setw(14) << " "\
+    << fixed << setprecision(14) << H5z << "\n";
+
+    file << setw(14) << "H" << setw(14) << " " \
+    << fixed << setprecision(14) << H6x << setw(14) << " "\
+    << fixed << setprecision(14) << H6y << setw(14) << " "\
+    << fixed << setprecision(14) << H6z << "\n";
+
+    file << setw(14) << "H" << setw(14) << " " \
+    << fixed << setprecision(14) << H7x << setw(14) << " "\
+    << fixed << setprecision(14) << H7y << setw(14) << " "\
+    << fixed << setprecision(14) << H7z << "\n";
+
+    file << setw(14) << "H" << setw(14) << " " \
+    << fixed << setprecision(14) << H8x << setw(14) << " "\
+    << fixed << setprecision(14) << H8y << setw(14) << " "\
+    << fixed << setprecision(14) << H8z << "\n";
+
+    file << setw(14) << "H" << setw(14) << " " \
+    << fixed << setprecision(14) << H9x << setw(14) << " "\
+    << fixed << setprecision(14) << H9y << setw(14) << " "\
+    << fixed << setprecision(14) << H9z << "\n";
+
+    file << setw(14) << "H" << setw(14) << " " \
+    << fixed << setprecision(14) << H10x << setw(14) << " "\
+    << fixed << setprecision(14) << H10y << setw(14) << " "\
+    << fixed << setprecision(14) << H10z << "\n";
+
+
+    file.close(); 
+
+    cout << "program sudah berhasil bestie!";
+
+    return 0;
+}
+ 
