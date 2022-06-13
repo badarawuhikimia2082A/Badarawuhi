@@ -11,20 +11,20 @@ int main(){
     float pi = 3.14;
 
     // deklarasi molekul butana
-    float C1x, C1y, C1z;
-    float C2x, C2y, C2z;
-    float C3x, C3y, C3z;
-    float C4x, C4y, C4z;
-    float H1x, H1y, H1z;
-    float H2x, H2y, H2z;
-    float H3x, H3y, H3z;
-    float H4x, H4y, H4z;
-    float H5x, H5y, H5z;
-    float H6x, H6y, H6z;
-    float H7x, H7y, H7z;
-    float H8x, H8y, H8z;
-    float H9x, H9y, H9z;
-    float H10x, H10y, H10z;
+    float C1x[216], C1y[216], C1z[216];
+    float C2x[216], C2y[216], C2z[216];
+    float C3x[216], C3y[216], C3z[216];
+    float C4x[216], C4y[216], C4z[216];
+    float H1x[216], H1y[216], H1z[216];
+    float H2x[216], H2y[216], H2z[216];
+    float H3x[216], H3y[216], H3z[216];
+    float H4x[216], H4y[216], H4z[216];
+    float H5x[216], H5y[216], H5z[216];
+    float H6x[216], H6y[216], H6z[216];
+    float H7x[216], H7y[216], H7z[216];
+    float H8x[216], H8y[216], H8z[216];
+    float H9x[216], H9y[216], H9z[216];
+    float H10x[216], H10y[216], H10z[216];
 
     // masukan nilai untuk setiap variabel C4H10
 
