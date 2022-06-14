@@ -1,3 +1,4 @@
+%%writefile propana-ruah.cpp
 
 #include "iostream"
 #include "cmath"
@@ -11,32 +12,31 @@ int main(){
     float pi = 3.14;
     int counter = 0;
 
-    // deklarasi molekul butana
-    float C1x, C1y, C1z;
-    float C2x, C2y, C2z;
-    float C3x, C3y, C3z;
-    float C4x, C4y, C4z;
-    float H1x, H1y, H1z;
-    float H2x, H2y, H2z;
-    float H3x, H3y, H3z;
-    float H4x, H4y, H4z;
-    float H5x, H5y, H5z;
-    float H6x, H6y, H6z;
-    float H7x, H7y, H7z;
-    float H8x, H8y, H8z;
-    float H9x, H9y, H9z;
-    float H10x, H10y, H10z;
-
-    /*              
-                H   H   H
-                  \ | /
-                    C   
-                    | 
-                H   C   H
-                | / | \ |
-            H — C   H   C — H
-                |       |
-                H       H
+    // deklarasi molekul propana
+    float C1x[216], C1y[216], C1z[216];
+    float C2x[216], C2y[216], C2z[216];
+    float C3x[216], C3y[216], C3z[216];
+    float C4x[216], C4y[216], C4z[216];
+    float H1x[216], H1y[216], H1z[216];
+    float H2x[216], H2y[216], H2z[216];
+    float H3x[216], H3y[216], H3z[216];
+    float H4x[216], H4y[216], H4z[216];
+    float H5x[216], H5y[216], H5z[216];
+    float H6x[216], H6y[216], H6z[216];
+    float H7x[216], H7y[216], H7z[216];
+    float H8x[216], H8y[216], H8z[216];
+    float H9x[216], H9y[216], H9z[216];
+    float H10x[216], H10y[216], H10z[216];
+            
+    /*             H  H  H
+                    \ | /
+                      C   
+                      | 
+                  H   C   H
+                  | / | \ |
+              H — C   H   C — H
+                  |       |
+                  H       H
                 
             molekul propana itu bentuk rigid
     */
@@ -102,22 +102,22 @@ int main(){
         for(int j = 0; j < 5; j++){
             for(int k = 0; k < 5; k++){
                 
-                C1x[counter] = rB_Cx + (i*3.01);
-                C1y[counter] = rB_Cy + (j*3.01);
-                C1z[counter] = rB_Cz + (k*3.01);
+                C1x[counter] = rB_C1x + (i*3.01);
+                C1y[counter] = rB_C1y + (j*3.01);
+                C1z[counter] = rB_C1z + (k*3.01);
 
-                C2x[counter] = rB_Cx + (i*3.01);
-                C2y[counter] = rB_Cy + (j*3.01);
-                C2z[counter] = rB_Cz + (k*3.01);
+                C2x[counter] = rB_C2x + (i*3.01);
+                C2y[counter] = rB_C2y + (j*3.01);
+                C2z[counter] = rB_C2z + (k*3.01);
 
-                C3x[counter] = rB_Cx + (i*3.01);
-                C3y[counter] = rB_Cy + (j*3.01);
-                C3z[counter] = rB_Cz + (k*3.01);
+                C3x[counter] = rB_C3x + (i*3.01);
+                C3y[counter] = rB_C3y + (j*3.01);
+                C3z[counter] = rB_C3z + (k*3.01);
 
-                C4x[counter] = rB_Cx + (i*3.01);
-                C4y[counter] = rB_Cy + (j*3.01);
-                C4z[counter] = rB_Cz + (k*3.01);
-
+                C4x[counter] = rB_C4x + (i*3.01);
+                C4y[counter] = rB_C4y + (j*3.01);
+                C4z[counter] = rB_C4z + (k*3.01);
+                
                 H1x[counter] = Cx[counter] + rB_H1x;
                 H1y[counter] = Cy[counter] + rB_H1y;
                 H1z[counter] = Cz[counter] + rB_H1z;
