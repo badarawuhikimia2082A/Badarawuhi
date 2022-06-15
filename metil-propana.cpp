@@ -48,41 +48,41 @@ int main(){
     H1y = 0.0;
     H1z = -cos (109.471*pi/180) * 4.678;
 
-    H2x = 
-    H2y = 
-    H2z = 
+    H2x = - sin (109.471*pi/180) * 4.678;
+    H2y = cos (109.471*pi/180) * 4.678;
+    H2z = 0.0
 
-    H3x = 
-    H3y = 
-    H3z = 
+    H3x = -H1x;
+    H3y = 0.0;
+    H3z = H1z;
 
-    H4x = 
-    H4y =
-    H4z = 
+    H4x = 0.0;
+    H4y = cos (109.471*pi/180) * 4.678;
+    H4z = -sin (109.471*pi/180) * 4.678;
 
     H5x = sin (109.471*pi/180) * 4.678;
     H5y = 0.0;
     H5z = -cos (109.471*pi/180) * 4.678;
 
-    H6x = 
-    H6y = 
-    H6z = 
+    H6x = -H3x;
+    H6y = 0.0;
+    H6z = H3z;
 
-    H7x = 
-    H7y = 
-    H7z = 
+    H7x = -H5x;
+    H7y = H5y;
+    H7z = 0.0;
 
-    H8x = 
-    H8y =  
-    H8z = 
+    H8x = cos (109.471*pi/180) * 4.678;
+    H8y = 0.0
+    H8z = -sin (109.471*pi/180) * 4.678;
 
-    H9x = 
-    H9y = 
-    H9z = 
+    H9x = sin (109.471*pi/180) * 4.678;
+    H9y = 0.0;
+    H9z = -cos (109.471*pi/180) * 4.678;
 
-    H10x = 
-    H10y =
-    H10z = 
+    H10x = -H8x;
+    H10y = 0.0;
+    H10z = H8z;
 
     // memasukkan nilai tersebut ke dalam File 
     ofstream file;
