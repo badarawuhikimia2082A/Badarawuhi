@@ -87,13 +87,13 @@ int main(){
             molekul propana itu bentuk rigid
     */
   
-    float rB_C1x = 
-    float rB_C1y = 
-    float rB_C1z = 
+    float rB_C1x = 0.0;
+    float rB_C1y = 0.0;
+    float rB_C1z = 0.0;
 
-    float rB_C2x = 
-    float rB_C2y = 
-    float rB_C2z = 
+    float rB_C2x = 0.0;
+    float rB_C2y = 0.0;
+    float rB_C2z = 0.0;
 
     float rB_C3x = 
     float rB_C3y = 
