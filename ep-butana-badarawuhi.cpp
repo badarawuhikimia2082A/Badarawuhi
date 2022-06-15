@@ -57,20 +57,20 @@ int main(){
     float pi = 3.14;
     
     // deklarasi molekul metana
-    float C1x[2744], C1y[2744], C1z[2744];
-    float C2x[2744], C2y[2744], C2z[2744];
-    float C3x[2744], C3y[2744], C3z[2744];
-    float C4x[2744], C4y[2744], C4z[2744];
-    float H1x[2744], H1y[2744], H1z[2744];
-    float H2x[2744], H2y[2744], H2z[2744];
-    float H3x[2744], H3y[2744], H3z[2744];
-    float H4x[2744], H4y[2744], H4z[2744];
-    float H5x[2744], H5y[2744], H5z[2744];
-    float H6x[2744], H6y[2744], H6z[2744];
-    float H7x[2744], H7y[2744], H7z[2744];
-    float H8x[2744], H8y[2744], H8z[2744];
-    float H9x[2744], H9y[2744], H9z[2744];
-    float H10x[2744], H10y[2744], H10z[2744];
+    float C1x[216], C1y[216], C1z[216];
+    float C2x[216], C2y[216], C2z[216];
+    float C3x[216], C3y[216], C3z[216];
+    float C4x[216], C4y[216], C4z[216];
+    float H1x[216], H1y[216], H1z[216];
+    float H2x[216], H2y[216], H2z[216];
+    float H3x[216], H3y[216], H3z[216];
+    float H4x[216], H4y[216], H4z[216];
+    float H5x[216], H5y[216], H5z[216];
+    float H6x[216], H6y[216], H6z[216];
+    float H7x[216], H7y[216], H7z[216];
+    float H8x[216], H8y[216], H8z[216];
+    float H9x[216], H9y[216], H9z[216];
+    float H10x[216], H10y[216], H10z[216];
     /* H   H    H    H   H
         \ /    /    /   /
          C  - C  - C - C 
